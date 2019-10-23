@@ -1,0 +1,19 @@
+1.1.2
+- file with user settings moved to the persistent folder /mnt/data/tsc
+  no new functionality
+
+1.1.1
+- when a new article is displayed, the text is now shown from the beginning.
+  previous releases kept the scrolling position from the previous read article when opening a new one.
+
+1.1.0
+- all rss feed text now shown as rich text on the tile and screens
+- item detail screen completely redesigned, is now a flexible flickable full screen area
+  no scrollbar anymore, scroll via vertical swipe gestures
+- now showing the publishing time of each item on all screens
+- overview screen is now more responsive to clicks (whole cell is clickable compared to the textfield only previously)
+- in the overview screen you can now scroll between the different RSS feeds
+- in the news item detail screen you can scroll back and forth through the news items of that rss feed
+
+1.0.0
+- initial release

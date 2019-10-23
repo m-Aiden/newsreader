@@ -1,0 +1,4 @@
+module apps.newsreader
+NewsreaderScreen 1.0 NewsreaderScreen.qml
+NewsreaderApp 1.0 NewsreaderApp.qml
+NewsreaderDelegate 1.0 NewsreaderDelegate.qml
