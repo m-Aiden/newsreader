@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick 2.1
 import qb.components 1.0
 import BasicUIControls 1.0;
 
@@ -73,7 +73,7 @@ Screen {
 	IconButton {
 		id: newsSourceLabelButton;
 		width: isNxt ? 50 : 40
-		iconSource: "./drawables/edit.png"
+		iconSource: "qrc:/tsc/edit.png"
 
 		anchors {
 			left: newsSourceLabel.right
@@ -139,7 +139,7 @@ Screen {
 	IconButton {
 		id: newsSourceURLButton;
 		width: isNxt ? 50 : 40
-		iconSource: "./drawables/edit.png"
+		iconSource: "qrc:/tsc/edit.png"
 
 		anchors {
 			left: newsSourceURL.right

@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick 2.1
 import SimpleXmlListModel 1.0
 import qb.components 1.0
 
@@ -34,7 +34,7 @@ Screen {
 	}
 
 	anchors.fill: parent
-	screenTitleIconUrl: "./drawables/newsreader.png"
+	screenTitleIconUrl: "qrc:/tsc/newsreader.png"
 	screenTitle: "Nieuws"
 
 	Component.onCompleted: {
@@ -147,7 +147,7 @@ Screen {
 			itemHeight: isNxt ? 30 : 23
 			itemsPerPage: 8
 			anchors.top: parent.top
-			downIcon: "./drawables/arrowScrolldown.png"
+			downIcon: "qrc:/tsc/arrowScrolldown.png"
 			buttonsHeight: isNxt ? 180 : 144
 			buttonsVisible: true
 			scrollbarVisible: true

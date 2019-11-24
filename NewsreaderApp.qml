@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick 2.1
 import BxtClient 1.0
 import FileIO 1.0
 
@@ -11,8 +11,8 @@ App {
 	property url fullMessageScreenUrl : "NewsreaderFullMessageScreen.qml"
 	property url fullConfigurationScreenUrl : "NewsreaderConfigurationScreen.qml"
 	property url tileUrl : "NewsreaderTile.qml"
-	property url thumbnailIcon: "./drawables/newsreader.png"
-	property url newsreaderMenuIconUrl: "./drawables/newsreader.png"
+	property url thumbnailIcon: "qrc:/tsc/newsreader.png"
+	property url newsreaderMenuIconUrl: "qrc:/tsc/newsreader.png"
 	property url trayUrl : "NewsreaderTray.qml";
 	property NewsreaderScreen newsreaderScreen
 	property NewsreaderFullMessageScreen newsreaderFullMessageScreen

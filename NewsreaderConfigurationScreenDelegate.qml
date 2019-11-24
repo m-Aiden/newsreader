@@ -1,4 +1,4 @@
-import QtQuick 1.1
+import QtQuick 2.1
 import BasicUIControls 1.0
 import qb.components 1.0
 
@@ -38,7 +38,7 @@ Rectangle
 		id: deleteNewsSourceButton
 		width: isNxt ? 35 : 28
 		height: isNxt ? 35 : 28
-		iconSource: "./drawables/icon_delete.png"
+		iconSource: "qrc:/tsc/icon_delete.png"
 		anchors {
 			left: newsSourceButton.right
 			leftMargin: 6
