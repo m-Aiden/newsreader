@@ -24,7 +24,7 @@ Tile {
 			family: qfont.bold.name
 			pixelSize: isNxt ? 25 : 20
 		}
-		color: colors.waTileTextColor
+		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
        		visible: !dimState
 	}
 	TextEdit {
@@ -41,7 +41,7 @@ Tile {
 			family: qfont.regular.name
 			pixelSize: isNxt ? 22 : 18
 		}
-		color: colors.waTileTextColor
+		color: (typeof dimmableColors !== 'undefined') ? dimmableColors.waTileTextColor : colors.waTileTextColor
 		wrapMode: Text.WordWrap
 		textFormat: TextEdit.RichText
 	        readOnly:true

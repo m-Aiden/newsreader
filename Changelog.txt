@@ -1,3 +1,6 @@
+1.1.3
+- dimmableColors update
+
 1.1.2
 - file with user settings moved to the persistent folder /mnt/data/tsc
   no new functionality
