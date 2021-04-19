@@ -21,7 +21,7 @@ App {
 
 	// user settings from config file
 	property variant newsreaderSettingsJson : {
-		'Newsfeeds': [],
+		'Newsfeeds': ["NOS Algemeen@http://feeds.nos.nl/nosnieuwsalgemeen","NOS Sport@http://feeds.nos.nl/nossportalgemeen","NOS Economie@http://feeds.nos.nl/nosnieuwseconomie","NOS Nieuws Tech@http://feeds.nos.nl/nosnieuwstech","AD@http://www.ad.nl/rss.xml","NRC@http://www.nrc.nl/rss","Bright@http://feeds.bright.nl/brightmagazine?format=xml","New York Times@http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml","Nu.nl Opmerkelijk@http://www.nu.nl/rss/Opmerkelijk","Nu.nl Algemeen@http://www.nu.nl/rss/Algemeen","Nu.nl Wetenschap@http://www.nu.nl/rss/Wetenschap"],
 		'TrayIcon': "",
 		'LastUsedSourceIndex': ""
 	}
